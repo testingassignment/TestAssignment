@@ -1,5 +1,7 @@
 package commonprefix;
 
+import java.util.Arrays;
+
 public class SortArrays {
 
     public static void sortArrays(int[] input){
@@ -19,7 +21,7 @@ public class SortArrays {
     public static void main(String[] args){
     int[] arr={2,10,0,1,0,0,1};
        sortArrays(arr);
-
+        System.out.println(Arrays.toString(arr));
        for(int i : arr){
            System.out.println(i);
        }
