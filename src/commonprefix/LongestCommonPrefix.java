@@ -52,7 +52,7 @@ public class LongestCommonPrefix {
         String result2 = longestCommonPrefix(strs3);
         System.out.println("Longest common prefix is: " + result2);
 
-        String[] strs4 = {"m", "", "match"};
+        String[] strs4 = {"m", "mag", "match"};
         String result3= longestCommonPrefix(strs4);
         System.out.println("Longest common prefix is: " + result3);
     }
